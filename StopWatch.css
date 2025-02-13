@@ -1,0 +1,128 @@
+
+*{
+    transition: 1s ease-in-out;
+    /* border: 2px solid red; */
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #a8e6cf, #fdffab,#ffd3b6,#ffaaa5);
+       
+}
+
+nav{
+    background-color: rgb(236, 92, 92);
+    font-size: 8vh;
+    color: white;
+    /* margin-top: 8vh; */
+}
+main{
+
+    background: linear-gradient(#599659, #906387, #5b446a, #6cae6c); 
+    box-shadow: whitesmoke 0 0 30px;
+    border: 2px solid springgreen ;
+    border-radius: 1rem;
+    width: 50vw;
+    height: 40vh;
+    /* max-width: 30rem; */
+    min-width: 15rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.time{
+    
+    background-color: violet;
+    color : #e0c5c5;
+    width: 80%;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.lap{
+    width: 60%;
+    min-height: 20%;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 .5rem;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: yellowgreen;
+    color: white;
+}
+.lap span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+ol{
+    padding: 0 0 0 .7rem;
+    /* margin : 0; */
+    border-radius: 1rem;
+}
+
+.controls{
+    /* border: 2px solid black; */
+    border-radius: 1rem;
+    width: 80%;
+    display: flex;;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+.controls button{
+    color: white;
+    /* background-color: orangered; */
+    border: none;
+    border-radius: 10%;
+    width: 14vh;
+    height: 6vh;
+    font-size: 3vh;
+}
+
+#start{
+    background-color: gray;
+}
+#start:hover{
+    background-color: darkorange;
+    
+}
+
+#pause{
+    background-color: darkorange;
+}
+#pause:hover{
+    background-color: orangered;
+}
+
+#resume{
+    background-color: red;
+}
+
+#resume:hover{
+    background-color: orangered;
+}
+
+#lap{
+    background-color: gray;
+}
+#lap:hover{
+    background-color: darkorange;
+}
+
+#reset{
+    background-color: grey;
+}
+#reset:hover{
+    color: white;
+    background-color: darkorange;
+}
